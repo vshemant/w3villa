@@ -1,0 +1,53 @@
+{
+    "easy" : [ 1,2,3,4,5],
+    "medium" : [6,7,8,9,10],
+    "hard" : [11,12,13,14,15],
+    "1" : { "q" : "Who is the first Prime Minister of India ?" , "a" : "Pt. Jawahar Lal Nehru",
+        "o1" : "Dr. Rajendra Prasad" , "o2" : "Pt. Jawahar Lal Nehru",
+        "o3" : "Sardar Vallabh bhai patel" , "o4" : "Lal Bahadur shastri" }
+    ,"2" : { "q" : "Who is the current pm of India?" , "a" : "Narendra modi",
+        "o1" : "Soniya gandhi" , "o2" : "Dr.Manmohan Singh",
+        "o3" : "Atal bihari bajpai" , "o4" : "Rajeev ranjan" }
+    ,"3" : { "q" : "Who is the CM of UP ?" , "a" : "Yogi Adityanath",
+        "o1" : "Akhilesh yadav" , "o2" : "Mayawati",
+        "o3" : "Priyanka gandhi" , "o4" : "Keshav prasad maurya" }
+    ,"4" : { "q" : "What is capital of india ?" , "a" : "Delhi",
+        "o1" : "Lucknow" , "o2" : "Kanpuar",
+        "o3" : "pune" , "o4" : "Mumbai" }
+    ,"5" : { "q" : "What is the Indian national animal?" , "a" : "Lion",
+        "o1" : "Cow" , "o2" : "monkey",
+        "o3" : "Dog" , "o4" : "Elephant" }
+    ,"6" : { "q" : "Fasted sharthand writer was ?" , "a" : "Dr.G.D Bist",
+        "o1" : "Dr.J.R.D tata" , "o2" : "J.M Tagore",
+        "o3" : "Khuadad khan" , "o4" : "Polo",
+        "7" : { "q" : "Epsom(England)is the place assosiated with" , "a" : "Horse racing",
+            "o1" : "Polo" , "o2" : "Shooting",
+           "o3" : "Snooker" , "o4" : "Singer" ,
+       "8" : { "q" : "First afghan war took palce In ?" , "a" : "1839",
+            "o1" : "1843" , "o2" : "1833",
+            "o3" : "1848" , "o4" : "1854" }
+        ,"9" : { "q" : "Birth Date of Indira gandhi?" , "a" : "19 nov 1917",
+            "o1" : "20 dec 1914" , "o2" : "15 nov 1916",
+            "o3" : "10 aug 1914" , "o4" : "12 nov 1918" }
+        ,"10" : { "q" : "Birth Date of Jawahar lal neharu?" , "a" : "14 nov 1889",
+            "o1" : "14 nov 1887" , "o2" : "15 nov 1888",
+            "o3" : "16 aug 1887" , "o4" : "14 nov 1887" }
+        ,"11" : { "q" : "Birth date of Amitabh bacchan ?" , "a" : "11 oct 1942",
+            "o1" : "11 oct 1943" , "o2" : "12oct 1944",
+            "o3" : "5 nov 1941" , "o4" : "None",
+            "12" : { "q" : "Baal Gangadhar Tilak Death date ?" , "a" : "1 Aug 1920",
+                "o1" : "12b aug 1920" , "o2" : "15 aug 1920",
+                "o3" : "14 nov 1919" , "o4" : "18 jan 1920" }
+            ,"13" : { "q" : "Chandra shekhar Azad Death Date?" , "a" : "27 feb 1931",
+                "o1" : "27 feb 1911" , "o2" : "15 nov 1916",
+                "o3" : "10 aug 1914" , "o4" : "12 nov 1918" }
+            ,"14" : { "q" : "Death date of Akbar?" , "a" : "27 oct 1605",
+                "o1" : "14 nov 1606" , "o2" : "15 nov 1604",
+                "o3" : "27 oct 1606" , "o4" : "14 nov 1608" }
+            ,"15" : { "q" : "Death date of Subhasg Chandra Bosh ?" , "a" : "18 aug 1945",
+                "o1" : "11 oct 1945" , "o2" : "12oct 1944",
+                "o3" : "5 nov 1945" , "o4" : "None" }
+              }
+         
+          }
+     

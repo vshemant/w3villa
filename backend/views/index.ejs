@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title> Report </title>
+        <style>
+            .right{
+                background-color:  green;
+            }
+            .wrong{
+                background-color: red;
+            }
+           div{
+               padding : 20px;
+           }
+        </style>
+    </head>
+    <body>
+        <form  >
+        <% Object.keys(sub).map( (id,i) => { %> 
+            <div  <% if(sub[id] === data[id].a) { %> class = "right" <% }  else if(sub[id] !== "NA"){ %>
+                class = "wrong" <% } %> >
+            <label><%= data[id].q %></label><br/>
+            <input type="radio"  <% if(sub[id] === data[id].o1) { %> checked <% } else { %> disabled <% } %> /> <%= data[id].o1 %>
+            <input type="radio"  <% if(sub[id] === data[id].o2) { %> checked <% }  else { %> disabled <% } %>  /><%= data[id].o2 %>
+            <input type="radio"  <% if(sub[id] === data[id].o3) { %> checked <% }  else { %> disabled <% }  %> /><%= data[id].o3 %>
+            <input type="radio"   <% if(sub[id] === data[id].o4) { %> checked <% }  else { %> disabled <% } %> /><%= data[id].o4 %>
+            <br/>
+            <%  if(sub[id] === data[id].a) { %> <h4>Right answer</h4> <% } 
+            else if(sub[id] !== "NA")
+            {
+                %> 
+                <h4>Wrong Answer</h4>
+                <h3>Correct answer : <%=  data[id].a %></h3>
+                <%
+            } else
+             {
+                 %>
+                 <h4>Not Answered</h4>
+                 <h3>Correct answer : <%=  data[id].a %></h3>
+                 <%
+             }
+            %>
+        </div>
+            <br/>
+
+       <% }) %>
+    </form>
+    </body>
+</html>
